@@ -7,6 +7,7 @@ from fastapi.exceptions import RequestValidationError
 from contextlib import asynccontextmanager
 from pathlib import Path
 from datetime import datetime
+import mimetypes
 import sys
 
 from app.config import settings as config_settings
@@ -25,6 +26,30 @@ setup_logging(
     message_max_chars=config_settings.log_message_max_chars,
 )
 logger = get_logger(__name__)
+
+
+# 不依赖 Windows 注册表，确保前端模块脚本始终返回正确的 MIME 类型。
+STATIC_MIME_TYPES = {
+    ".js": "text/javascript",
+    ".mjs": "text/javascript",
+    ".css": "text/css",
+    ".html": "text/html",
+    ".svg": "image/svg+xml",
+    ".json": "application/json",
+    ".wasm": "application/wasm",
+}
+
+for _suffix, _media_type in STATIC_MIME_TYPES.items():
+    mimetypes.add_type(_media_type, _suffix, strict=True)
+
+
+def get_static_media_type(path: Path) -> str:
+    """返回稳定的静态文件 MIME 类型，避免未知类型退回 text/plain。"""
+    return (
+        STATIC_MIME_TYPES.get(path.suffix.lower())
+        or mimetypes.guess_type(path.name)[0]
+        or "application/octet-stream"
+    )
 
 
 @asynccontextmanager
@@ -249,7 +274,10 @@ if static_dir.exists():
             )
 
         if resolved_file.is_file():
-            return FileResponse(resolved_file)
+            return FileResponse(
+                resolved_file,
+                media_type=get_static_media_type(resolved_file),
+            )
         
         index_file = static_dir / "index.html"
         if index_file.exists():

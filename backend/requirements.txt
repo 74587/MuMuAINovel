@@ -19,6 +19,7 @@ openai==2.7.0
 anthropic==0.72.0
 
 # 工具库
+requests>=2.32.0
 httpx==0.28.1
 python-dotenv==1.1.0
 psutil==6.1.1
@@ -39,3 +40,5 @@ certifi==2026.7.22
 # 宽松JSON解析
 json5==0.12.0
 PyYAML==6.0.3
+cryptography>=43.0.0
+

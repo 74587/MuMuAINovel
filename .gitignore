@@ -106,8 +106,6 @@ dmypy.json
 
 #build
 BUILD_GUIDE.md
-launcher.py
-launcher.spec
 mumuainovel.md
 logo.ico
 .embed_cache
@@ -131,3 +129,4 @@ tests/
 backend/tests/
 **/test_*.py
 **/*_test.py
+tool/
