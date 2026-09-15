@@ -70,7 +70,7 @@
 
 <div align="center">
 
-<img src="https://mumuverse.space:1527/i/2026/09/15/6aa8ee355fcb5.png" alt="ApophisCode 中转站" width="600" />
+<img src="https://mumuverse.space:1527/i/2026/09/15/6aa8efe7de888.png" alt="ApophisCode 中转站" width="600" />
 
 </div>
 
