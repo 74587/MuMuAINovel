@@ -64,6 +64,34 @@
 
 ---
 
+## 🤝 合作推广
+
+### 【ApophisCode 中转站合作&推广】
+
+<div align="center">
+
+<img src="https://mumuverse.space:1527/i/2026/09/15/6aa8e959131fd.png" alt="ApophisCode 中转站" width="600" />
+
+</div>
+
+📚 **灵感来了，别让额度先没了！**
+
+MuMuAINovel 写大纲、搭世界观、生成章节、润色重写，长篇创作更需要稳定又实惠的模型补给。  
+MuMuAINovel 支持第三方 AI API，获取 Key 后按站内文档配置即可。
+
+🚀 **ApophisCode 中转站全新启航，限时福利倍率：**
+- 🔥 **Claude Fable 5.1 满血 Max**：1.4x
+- ⚡ **Claude Opus 5 Kiro**：0.25x
+- 💫 **GPT-6 Astra**：0.08x
+
+- 📍 **交流群**：425421707
+- ✈️ **起飞站**：[https://www.apophis.uk/](https://www.apophis.uk/)
+
+🔥 **给 MuMuAINovel 补足火力，今晚继续爆更！**  
+🎁 **新用户进群绑定账号即赠尝鲜额度，每日签到还能继续领！**
+
+---
+
 ## ✨ 特性
 
 - 🤖 **多 AI 模型** - 支持 OpenAI、Gemini、Claude 等主流模型
