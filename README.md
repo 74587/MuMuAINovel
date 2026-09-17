@@ -70,7 +70,7 @@
 
 <table>
 <tr>
-<td width="200" align="center" valign="middle"><a href="https://www.apophis.uk/"><img src="https://mumuverse.space:1527/i/2026/09/15/6aa8efe7de888.png" alt="ApophisCode 中转站" width="180"></a></td>
+<td width="200" align="center" valign="middle"><a href="https://www.apophis.uk/"><img src="images/apophis.png" alt="ApophisCode 中转站" width="180"></a></td>
 <td valign="middle">感谢 <strong>ApophisCode 中转站</strong> 赞助支持本项目！ApophisCode 为 MuMuAINovel 长篇创作提供稳定又实惠的模型补给，写大纲、搭世界观、生成章节不卡顿，支持第三方 AI API。全新启航限时福利倍率：Claude Fable 5.1 满血 Max (1.4x)、Claude Opus 5 Kiro (0.25x)、GPT-6 Astra (0.08x)。新用户进交流群（425421707）绑定账号即赠尝鲜额度，每日签到还能继续领！点击 <a href="https://www.apophis.uk/">此处</a> 前往起飞站开用。</td>
 </tr>
 </table>
