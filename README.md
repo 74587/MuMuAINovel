@@ -73,6 +73,10 @@
 <td width="200" align="center" valign="middle"><a href="https://www.apophis.uk/"><img src="images/apophis.png" alt="ApophisCode 中转站" width="180"></a></td>
 <td valign="middle">感谢 <strong>ApophisCode 中转站</strong> 赞助支持本项目！ApophisCode 为 MuMuAINovel 长篇创作提供稳定又实惠的模型补给，写大纲、搭世界观、生成章节不卡顿，支持第三方 AI API。全新启航限时福利倍率：Claude Fable 5.1 满血 Max (1.4x)、Claude Opus 5 Kiro (0.25x)、GPT-6 Astra (0.08x)。新用户进交流群（425421707）绑定账号即赠尝鲜额度，每日签到还能继续领！点击 <a href="https://www.apophis.uk/">此处</a> 前往起飞站开用。</td>
 </tr>
+<tr>
+<td width="200" align="center" valign="middle"><a href="https://api.atku.cn"><img src="images/conduit.jpg" alt="Conduit 消息推送服务" width="180"></a></td>
+<td valign="middle">感谢 <strong>Conduit</strong> 赞助支持本项目！Conduit 是一款统一消息推送解决方案，专注把消息高效、稳定地送达用户。只需一次接入，即可轻松覆盖 QQ、微信、Telegram 等多个主流平台，真正实现「一条消息，多平台即时送达」。标准 API 分钟级接入，毫秒级实时推送，多重防护与数据加密，并提供可视化控制台统一管理。点击 <a href="https://api.atku.cn">此处</a> 前往官网立即体验。</td>
+</tr>
 </table>
 
 <br>
